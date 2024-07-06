@@ -12,13 +12,11 @@ body {
     background: linear-gradient(to right, #afadbfe7, #9b0de8c9, #ad00f8);
     font-size: 100%;
     overflow: hidden;
-    
 }
 
 .conteudo_geral {
     display: flex;
     flex-direction: row;
-    
 }
 
 .conteudo {
@@ -28,7 +26,6 @@ body {
     justify-content: space-between;
     height: 500px;
     width: 1000px;
- 
 }
 
 .div_conteudo1 {
@@ -112,6 +109,7 @@ body {
     margin-bottom: 50px;
     height: 50px;
 }
+
 .subtitulo {
     font-family: "Roboto Mono", monospace;
     text-shadow: 0.6px 0.6px#d8d3ff;
@@ -166,7 +164,6 @@ body {
     .texto_2 {
         font-size: 15px;
     }
-    
 }
 
 @media screen and (max-width: 1200px) {
@@ -201,7 +198,6 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
 }
 
 @media screen and (max-width: 950px) {
@@ -303,6 +299,10 @@ body {
         width: 350px;
         height: 80%;
     }
+    
+    .textos .texto_1 {
+        border-left: none;
+    }
 
     .texto1 {
         padding: none;
@@ -315,12 +315,14 @@ body {
 }
 
 @media screen and (max-width: 680px) {
+
     .div_conteudo2 {
         padding-left: 23%;
     }
 }
 
 @media screen and (max-width: 640px) {
+    
     .div_conteudo2 {
         padding-left: 0%;
     }
@@ -382,6 +384,21 @@ body {
         outline: 5px solid #bab3fb;
         height: 50px;
         margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .textos .texto_1 {
+        margin-right: 2.8%;
+    }
+
+    .div_conteudo2 {
+        height: auto;
+    }
+    .icone {
+        height: 40px;
     }
 
 }
